@@ -1,7 +1,7 @@
 #Read data from files into two matrices train and test
 #and for labels into trainlabels and testlabels
 
-data = "C:\\Users\\aks23\\Documents\\Sollers\\Data\\climate"    
+data = "climate"    
 for k in range(0, 10, 1):
     f = open(data + "\\train."+str(k))
     mylist = f.readlines()
